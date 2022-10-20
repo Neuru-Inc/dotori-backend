@@ -35,3 +35,5 @@ out/
 
 ### VS Code ###
 .vscode/
+dotori_fcm_secret.json
+src/main/resources/application.yml
