@@ -2,7 +2,10 @@ package com.neuru.dotoribackend.domain.post;
 
 
 import com.neuru.dotoribackend.domain.BaseTimeEntity;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
@@ -50,8 +53,7 @@ public abstract class Post extends BaseTimeEntity {
         this.bookmarkCount++;
     }
 
-    protected Post() {
-    }
+    protected Post() {}
 
     public Post(Long id, String title, String content, Long likeCount, Long bookmarkCount, Long commentCount, String imageUrl, String videoUrl, Boolean isHided) {
         this.id = id;
