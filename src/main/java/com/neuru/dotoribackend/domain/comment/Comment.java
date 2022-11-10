@@ -3,10 +3,8 @@ package com.neuru.dotoribackend.domain.comment;
 import com.neuru.dotoribackend.domain.BaseTimeEntity;
 import com.neuru.dotoribackend.domain.member.Member;
 import com.neuru.dotoribackend.domain.post.Post;
-import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 

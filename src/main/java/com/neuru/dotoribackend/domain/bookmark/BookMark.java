@@ -30,7 +30,8 @@ public class BookMark {
 
 
     //** constructor **//
-    protected BookMark(){}
+    protected BookMark() {
+    }
 
     @Builder
     public BookMark(Long id, Member member, Post post) {

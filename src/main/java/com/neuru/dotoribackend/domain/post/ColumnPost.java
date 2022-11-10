@@ -3,7 +3,9 @@ package com.neuru.dotoribackend.domain.post;
 import lombok.Builder;
 import lombok.Getter;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Entity
 @Getter
