@@ -1,21 +1,23 @@
 package com.neuru.dotoribackend.domain.product;
 
 import lombok.Builder;
+import lombok.Getter;
 
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
 
 @Entity
+@Getter
 @Table(name = "WORK")
-public class Work extends Product {
+public class Artwork extends Product {
 
     //** constructor **//
-    protected Work() {
+    protected Artwork() {
     }
 
     @Builder
-    public Work(String uuid, String name, String sellCommission, String productInfoType, String productInfo, Integer stock, Boolean isSale, String deliveryCompany, String imageUrl) {
+    public Artwork(String uuid, String name, String sellCommission, String productInfoType, String productInfo, Integer stock, Boolean isSale, String deliveryCompany, String imageUrl) {
         super(uuid, name, sellCommission, productInfoType, productInfo, stock, isSale, deliveryCompany, imageUrl);
     }
 }
