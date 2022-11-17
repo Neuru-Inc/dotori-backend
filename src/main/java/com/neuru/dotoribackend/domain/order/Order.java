@@ -12,7 +12,7 @@ import java.time.LocalDateTime;
 
 @Getter
 @Entity
-@Table(name = "ORDER")
+@Table(name = "ORDERS")
 public class Order extends BaseTimeEntity {
     @Id
     @Column(name = "order_uuid")
